@@ -7,6 +7,7 @@ https://github.com/karthikmswamy/RecSys
 https://jsavalle.com/machine-learning-digging-into-recommendation-system/
 https://www.librec.net/
 https://lkpy.lenskit.org/en/latest/index.html
+http://www.jasongj.com/ml/associationrules/
 
 关联规则是指从一组数据中发现数据项之间的隐藏关系，它是一种典型的无监督学习。
 几个核心概念
