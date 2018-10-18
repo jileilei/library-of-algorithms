@@ -7,3 +7,15 @@ https://github.com/karthikmswamy/RecSys
 https://jsavalle.com/machine-learning-digging-into-recommendation-system/
 https://www.librec.net/
 https://lkpy.lenskit.org/en/latest/index.html
+
+关联规则是指从一组数据中发现数据项之间的隐藏关系，它是一种典型的无监督学习。
+几个核心概念
+项目,事务,项集,支持度,频繁项集,置信度,提升度
+关联规则中，关键
+点是：1）找出频繁项集；2）合理地设置三种阈值；3）找出强关联规则
+Apriori算法原理
+原理一：如果一个项集是频繁项目集，那它的非空子集也一定是频繁项目集。
+原理二：如果一个项目集的非空子集不是频繁项目集，那它也不是频繁项目集。
+原理三：对于频繁项目集X，如果 $(X-Y) \rightarrow Y$ 是强关联规则，则 $(X-Y) \rightarrow Y_{sub}$ 也是强关联规则。
+原理四：如果 $(X-Y) \rightarrow Y_{sub}$ 不是强关联规则，则 $(X-Y) \rightarrow Y$ 也不是强关联规则。
+其中 $Y_{sub}$ 是 $Y$ 的子集。
