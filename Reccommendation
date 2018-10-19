@@ -9,6 +9,8 @@ https://www.librec.net/
 https://lkpy.lenskit.org/en/latest/index.html
 http://www.jasongj.com/ml/associationrules/
 
+http://html.rhhz.net/tis/html/20150306.htm#R7
+
 关联规则是指从一组数据中发现数据项之间的隐藏关系，它是一种典型的无监督学习。
 几个核心概念
 项目,事务,项集,支持度,频繁项集,置信度,提升度
